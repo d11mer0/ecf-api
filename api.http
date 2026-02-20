@@ -1,0 +1,14 @@
+### Отримати всі компетенції
+GET http://localhost:3000/competencies
+
+###
+
+### Створити нову компетенцію e-CF
+POST http://localhost:3000/competencies
+Content-Type: application/json
+
+{
+  "competence_code": "A.22",
+  "competence_name": "Service Level Managemeasdnt",
+  "description": "Узгодження, моніторинг та зadsвітність щодо рівня ІТ-послуг"
+}
